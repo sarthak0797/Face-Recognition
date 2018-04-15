@@ -1,6 +1,6 @@
 # Face-Recognition
 
-What is face recognition? Or what is recognition? When you look at an apple fruit, your mind immediately tells you that this is an apple fruit. This process, your mind telling you that this is an apple fruit is recognition in simple words. So what is face recognition then?
+What is face recognition? Or what is recognition? When you look at an apple fruit, your mind immediately tells you that this is an apple fruit. This process, your mind telling you that this is an apple fruit is recognition in simple words. So what is face recognition then? <br/>
 It is quite simple and intuitive. Take a real life example, when you meet someone first time in your life you don't recognize him, right? While he talks or shakes hands with you, you look at his face, eyes, nose, mouth, color and overall look. This is your mind learning or training for the face recognition of that person by gathering face data. Then he tells you that his name is David. At this point your mind knows that the face data it just learned belongs to David. Now your mind is trained and ready to do face recognition on David's face. Next time when you will see David or his face in a picture you will immediately recognize him. This is how face recognition work.
 
 Our Projects also works in the same manner.It's split into three major components:
