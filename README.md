@@ -30,6 +30,7 @@ After recognising any particular person our program also checks for any record o
 We have used :
 
 ### Local Binary Patterns Histograms (LBPH) Face Recogniser
+
 We know that Eigenfaces and Fisherfaces are both affected by light and in real life we can't guarantee perfect light conditions. LBPH face recognizer is an improvement to overcome this drawback.
 
 Idea is to not look at the image as a whole instead find the local features of an image. LBPH alogrithm try to find the local structure of an image and it does that by comparing each pixel with its neighboring pixels.
@@ -41,7 +42,7 @@ Take a 3x3 window and move it one image, at each move (each local part of an ima
 1) Download or Clone the repository
 2) Download all the prerequisites
 3) Store the Videos in the test_videos folder
-4) After storing the Videos in the test folder open the module named camfeed.py and change the name of "robin.mp4" to the name by which you have stored the video. Repeat the process until you have fed all this test videos one by one.
+4) After storing the Videos in the test folder open the module named camfeed.py and change the name of "robin.mp4" (in line number 4) to the name by which you have stored the video. Repeat the process until you have fed all this test videos one by one.
 ###### Note - Always assign numerical values to the id's
 5) After feeding all the test videos run the module named detector.py so that you train the classifier to identify all the people whose samples you haven given to the previous module.
 ###### Note - You only need to run modules camfeed.py and detector.py once,when you have to train the classifier to identify any new person.
