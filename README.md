@@ -46,3 +46,14 @@ Take a 3x3 window and move it one image, at each move (each local part of an ima
 5) After feeding all the test videos run the module named detector.py so that you train the classifier to identify all the people whose samples you haven given to the previous module.
 ###### Note - You only need to run modules camfeed.py and detector.py once,when you have to train the classifier to identify any new person.
 6) Once you train the classifier you just need to run the module recogniser.py to finally give you the real life implementation and identification of the people for whom you have trained the machine, if it matches the person with records stored it will send the record to the mail id you would have given.
+
+## Applications
+
+Facial Recognition can be used in multiple places and ways, however, our main focus here was to use it for these two purposes. <br/>
+
+1) You can train the machine to recignise particular criminals who are on a run from police and whenever any camera spots them it will send a detailed location and record of that person to the police or whose mail id is given to the machine. <br/>
+2) We can also use it to find the children who have lost their way to home, all we need to do is feed their video/image to the machine and train it to recognise him/her and wherever any camera spots them it will send their location to the concerned authority.
+
+## End Notes
+
+Although LBPH face recognizer is good but there are even better ways to perform face recognition like using Histogram of Oriented Gradients (HOGs) and Neural Networks. So the more advanced face recognition algorithms are now a days implemented using a combination of OpenCV and Machine learning.
