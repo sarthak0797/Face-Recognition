@@ -59,4 +59,4 @@ Facial Recognition can be used in multiple places and ways, however, our main fo
 
 Although LBPH face recognizer is good but there are even better ways to perform face recognition like using Histogram of Oriented Gradients (HOGs) and Neural Networks. So the more advanced face recognition algorithms are now a days implemented using a combination of OpenCV and Machine learning.
 
-This project is in joint contribution of @sachin-bist 
+This project is in joint contribution of @sachin-bisht 
