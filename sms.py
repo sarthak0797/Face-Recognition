@@ -23,8 +23,8 @@ def mail1(msg,email):
 	server.starttls()
 
 	#Next, log in to the server
-	server.login("sarthak.kohli.0.7@gmail.com", "8979518980")
+	server.login("EMAIL_FROM", "PASSWORD")
 
 	#Send the mail
 	msg = msg
-	server.sendmail("sarthak.kohli.0.7@gmail.com", email, msg.encode("utf-8"))
+	server.sendmail("EMAIL_FROM", email, msg.encode("utf-8"))
