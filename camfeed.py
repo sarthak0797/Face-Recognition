@@ -4,7 +4,7 @@ import os
 cam = cv2.VideoCapture('robin.mp4')
 detector=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-pic_path = '/home/humbel-fool/V_enviroment/Ongoing/Graphathon/Web_pics'
+pic_path = './Test_pics'
 
 Id=input('enter your id')
 sampleNum=0
