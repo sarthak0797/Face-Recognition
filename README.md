@@ -24,10 +24,11 @@ After recognising any particular person our program also checks for any record o
 2) Python3
 3) Numpy
 4) Pillow
+5) SMTP
 
 ## Recogniser Used
 
-We have used :
+The algorithm used is :
 
 ### Local Binary Patterns Histograms (LBPH) Face Recogniser
 
